@@ -1,0 +1,158 @@
+
+
+
+/******** COLOR PALETTE *******
+
+#FFFFFA: baby powder
+#9FCC2E: yellow green
+#333138: jet
+#C884A6: opera mauve
+#0B6E4F: bottle green
+#A188A6: glossy grape
+#BCD8C1: cambridge blue
+#005377: blue sapphire
+#D6FFF6: light cyan
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Meddon', cursive;
+font-family: 'Merriweather', serif;
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #FFFFFA;
+    color: #333138;
+
+  }
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Meddon', cursive;
+  font-size: 4em;
+  color: #005377;
+    /* width: 10px;
+  margin: 0 auto; /*this is to align this h1 to center as it the width given wont let text-align in body to work on it */
+}
+
+.desginer {
+  font-weight: normal;
+}
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;  /* baseline is 16px so 2.5 times of 16px irrespective of the parent font size which would be otherwise inherited  */
+  color: #005377;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+hr {
+  border-style: dotted none none;
+  border-bottom: none;
+  border-color: #A188A6;
+  border-width: 5px;
+  width: 3%;
+  clear: right;
+  margin: 100px auto;
+
+}
+p {
+    line-height: 2;
+}
+  .top-container {
+    background-color: #D6FFF6;
+    position: relative; /*this will act s reference for the postions of the clouds */
+    padding-top: 100px;
+}
+
+  .top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+  }
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+ a {
+  color: #11999E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  }
+
+.code-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.potter-image {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.contact-me {
+  margin: 0 auto 100px auto;
+
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #005377;
+  border-radius: 8px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #005377;
+  text-decoration: underline;
+}
+
+.bottom-container {
+  background-color: #005377;
+  padding-bottom: 10px;
+}
+
+.footer-link {
+  display: inline-block;
+  padding: 40px;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  /* text-align: center; */
+}
+
+.footer-link:hover {
+  color: #FFFFFA;
+}
+
+.copyright {
+  color: #FFFFFA;
+  font-weight: lighter;
+  font-size: 0.75rem;
+  margin: 10px;
+}
